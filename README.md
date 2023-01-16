@@ -20,10 +20,6 @@ Proyecto Final de Tienda online para el curso de React Js #40295 en Coderhouse.
   npm start
 ```
 
-## Deployment 📦
-
-- https://proyecto-ecommerce-react.netlify.app/
-
 ## Desarrollado con 🛠️
 - CSS
 - HTML
