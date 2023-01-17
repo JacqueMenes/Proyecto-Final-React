@@ -42,7 +42,7 @@ const Checkout = ({ greeting }) => {
     stateLastName: "",
     stateLastNameMsj: "",
     statePhone: "",
-    stateMsjPhone: "",
+    statePhoneMsj: "",
     stateMail: "",
     stateMailMsj: "",
     stateAddress: "",

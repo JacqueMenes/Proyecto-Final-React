@@ -13,7 +13,7 @@ import { db } from "./firebaseConfig";
 // Consultar los productos en Firestore:
 export const fetchCategory = async (idCategory) => {
   // Crear consulta:
-  let consulta = query(collection(db, "productos"), orderBy("title"));
+  let consulta = query(collection(db, "productos"), orderBy("price", "desc"));
   if (idCategory) {
     consulta = query(
       collection(db, "productos"),

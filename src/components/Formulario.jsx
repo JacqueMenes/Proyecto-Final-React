@@ -54,7 +54,7 @@ const Form = ({
                     </small>
                   </div>
                   <span className="text-muted">
-                    ${formatNumber(element.price)}
+                    ${formatNumber(element.price)} x{element.cantidad}
                   </span>
                 </li>
               ))}
@@ -175,7 +175,7 @@ const Form = ({
                     />
                     {!state.statePhone ? (
                       <div className="invalid-feedback d-block">
-                        {state.statePhone}
+                        {state.statePhoneMsj}
                       </div>
                     ) : null}
                   </div>
